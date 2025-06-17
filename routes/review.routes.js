@@ -3,6 +3,6 @@ import { getReviews } from './../controller/review.controller.js';
 
 const router = Router();
 
-//define routes...
+router.get("/reviews", getReviews);
 
-export default router
+export default router;
