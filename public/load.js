@@ -14,7 +14,7 @@ async function loadReviews() {
       const row = document.createElement('tr');
       row.innerHTML = `
         <td>
-            <img src= ${review.images}>
+            <img src= ${review.image}>
             <div>${review.title}</div>
         </td>
         <td>${review.reviewer}</td>
